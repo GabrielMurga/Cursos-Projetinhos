@@ -1,0 +1,1 @@
+print("Programa em Python é muito fácil");

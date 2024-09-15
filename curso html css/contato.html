@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato-Barbearia Murga</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+       <div class="caixa "> 
+        <h1><img src="logo.png" alt="Logo da Barbearia"></h1>
+             <nav> 
+                 <ul>
+                        <li><a href="barbearia.html">Home </a> </li>
+                        <li><a href="produtos.html">Produtos </a> </li>
+                        <li><a href="contato.html">Contatos </a> </li>
+                 </ul>
+            </nav>
+       </div>
+    </header>
+    <main>
+        <form>
+            <fieldset class="informaçoes-padrao">
+            <label for="nome">Nome e Sobrenome</label>
+            <input class="input-padrão" type="text" id="nome" name="nome" required>
+
+            <label for="email"> Email</label>
+            <input  class="input-padrão" type="email" id="email" name="email" required placeholder="seuemail@dominio.com">
+            
+            <label for="telefone"> Telefone</label>
+            <input  class="input-padrão" type="tel" id="telefone" name="telefone" required placeholder="(xx)xxxxx-xxxx">
+             
+            <label for="texto">Envie uma mensgaem!</label>
+            <textarea class="input-padrão" id="texto" name="texto" cols="50" rows="10"></textarea>
+            </fieldset>
+
+
+
+            <fieldset class="contato">
+                 <legend> Como prefere o nosso contato?</legend>
+                <label  class="radio-label"for="radio-email"><input type="radio" id="radio-email" name="contato" value="email">
+                    Email</label>
+             
+                <label class="radio-label" for="radio-telefone"><input type="radio" id="radio-telefone" name="contato" value="Telefone">
+                    Telefone</label>
+              
+             
+                <label class="radio-label" for="radio-wpp"><input type="radio" id="radio-wpp" name="contato" value="WhatsApp" checked>
+                    WhatsApp</label>
+                
+             </fieldset>
+
+
+
+             <fieldset class="horario">
+                <legend> Qual horário prefere ser atendido</legend>
+                 <select>
+                     <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+
+                <label class="checkbox"> <input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+                <div class="botão">
+            <input type="submit" value="Enviar fomulário">
+                  </div>  
+
+        </form>
+        <div class="tabela">
+            <p id="titulo-tabela">Dias de funcionamento</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dias</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Terça</td>
+                        <td>8:00-20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8:00-20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta</td>
+                        <td>8:00-20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8:00-20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sabado</td>
+                        <td>8:00-15:00</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <img src="logo-branco.png" alt="Logo da Barbearia">
+        <p class="copyright">©Copyright-Barbearia Alura-2019</p>
+    
+         </footer>
+    </body>
+    </html>

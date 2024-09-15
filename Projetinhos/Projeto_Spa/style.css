@@ -1,0 +1,234 @@
+body{
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise)
+}
+
+header{
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise)
+}
+.caixa{
+    width: 940px;
+    margin:0 auto;
+    position: relative;
+
+} 
+h1{
+    text-align: center;
+}
+ .caixa img{
+    width: 8%;
+    margin-top: 15px;
+    margin-right: 500px;
+    padding-bottom: 10px;
+}
+.div-logo p{
+    position: absolute;
+    top:40%;
+    left:calc(30% - 5px);
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+nav{
+        position: absolute;
+        right: 0;
+        top: 30%;
+
+}
+
+nav ul{
+    display:inline;
+
+}
+nav li{
+    display: inline;
+    margin-left: 1em;
+}
+nav li a{
+    display: inline-block;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding:  1em 2em;
+    font-family: 'League Gothic', sans-serif;
+    transition: 500ms;
+
+}
+nav a:hover{
+    background-image: linear-gradient(to bottom,rgb(255, 132, 153),violet);
+    
+}
+/* aqui acaba o header*/
+.banner{
+    width: 100%;
+    height: 500px;
+}
+main{
+    width: 940px;
+    margin: 0 auto; 
+    background-color:#dd7ace73;
+    
+
+}
+.titulo-padrao{
+    text-align: center;
+    font-size: 2em;
+    margin:1em 0;
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px 2px black;
+}
+.paragrafo-padrao{
+    text-align: center;
+    margin: 1em 50px;
+    font-size: 1.2em;
+
+}
+#paragrafo-missao{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.titulo-padrao::before{
+    content: " [ ";
+}
+
+.titulo-padrao::after{
+    content: " ] ";
+}
+
+.foto-informacoes{
+    width:calc(20% - 38px) ;
+    float: left;
+    margin: 0 10px 10px 20px;
+
+}
+.mapa{
+    padding: 3em 0;
+
+ }
+
+.titulo-mapa{
+    text-align: center;
+    font-size: 2em;
+    margin:1em 0;
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px 1px black;
+    clear: left;
+}
+.titulo-mapa::before{
+    content: " [ ";
+}
+
+.titulo-mapa::after{
+    content: " ] ";
+}
+.mapa-counteudo{
+    width: 80%;
+    margin: 0 auto;
+}
+/* aqui acaba a parte do mapa*/
+
+.beneficios{
+    margin-top: 1em;
+}
+.img-beneficios{
+    width: 40%;
+    float: right;
+    margin-right: 100px;
+}
+ .beneficios ul{
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    transform: translate(-80%);
+}
+ .beneficios ul li {
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+ .beneficios ul li::before{
+    content: "★";
+}
+.video{
+
+    clear: right;
+    width:940px;
+    text-align: center;
+    border-style: dashed;
+    border-color: blueviolet;
+}
+.video iframe{
+    margin:100px auto;
+    width: 80%;
+}
+
+footer{
+    background-image: url("footer.png");
+    height: 150px;
+    margin-top:3em;
+    text-align: center;
+}
+
+footer p {
+    color:blue;
+    cursor:pointer;
+    position: relative;
+    top:50px;
+}
+
+footer img{
+    width: 50px;
+    position: relative;
+    top:50px;
+}
+
+/* Aqui comeca a parte dos produtos*/
+.produtos{
+    position: relative;
+    margin:0 auto;
+    padding:50px 0;
+    text-align: center;
+}
+.produtos li{
+    display: inline-block;
+    width: 30%;
+    margin:0 1.5%;
+    vertical-align: top;
+    padding: 30px 20px;
+	box-sizing: border-box;
+    border: 2px solid white;
+    border-radius:10px;
+
+}
+.produtos h2{
+    font-size:2em;
+    text-shadow: 1px 1px 1.5px black;
+    margin-bottom: 1em;
+
+}
+ li img{
+width: 200px;
+height: 200px;
+margin: 0;
+padding: 0;
+}
+.produtos p{
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+.produtos h2:hover{
+    font-size: 2.5em;
+}
+ .produtos li:hover{
+    border:solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(60deg,#b16ec4,#5f97b8);
+
+ }
+ /* aqui acaba a pagina de produtos*/

@@ -1,0 +1,6 @@
+Para criar o ambiente virtual:"python -m venv venv  " o ultimo é o nome que vc quer dar para o ambinete
+Para ativar o ambiente virtual :"nome_do_ambiente\Scripts\activate.bat"
+Para desativar o ambiente virtual: "deactivate"
+Para instalar os request: "pip install request"
+Para criar o arquivo txt com os dados: "pip freeze > requeriments.txt"
+

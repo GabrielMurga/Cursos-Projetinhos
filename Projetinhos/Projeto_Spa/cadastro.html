@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <header>
+                <div class="caixa ">
+            <div class="div-logo">
+                <h1><img src="logo.png" alt="Logo"></h1>
+                <p class="logo-nome">Murspa</p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html.html">Home </a> </li>
+                    <li><a href="Produtos.html">Produtos </a> </li>
+                    <li><a href="cadastro.html">Contatos </a> </li>
+                </ul>
+            </nav>
+        </div>
+     
+    </header>
+    <h1 class="titulo-cadastro">Cadastro</h1>
+    <main>
+        <form method="POST" action="index.php">
+
+            <fieldset class="informacoes-basicas">
+                <label for="nome">Nome</label>
+                <input type="text" class="nome" name="nome" required>
+                <label for="idade"> Idade</label>
+                <input type="number" class="idade" nome="idade" required>
+            </fieldset>
+
+             <div class="dados-contato">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" class="email" placeholder="123@gmail.com">
+                <label for= "numero"> Número</label>
+                <input type="tel" name="numero" class="numero" placeholder="(XX)XXXXX-XXXX" maxlength="11">
+           </div>
+
+           <div class="campo">
+            <label><strong>Qual o seu gênero?</strong></label>
+            <label><input type="radio" name="genero" value="Masculino">Masculino
+            </label>
+            <label><input type="radio" name="genero" value="Feminino">Feminino
+            </label>
+            <label><input type="radio" name="genero" value="Outro">Outro</label>
+           </div>
+
+           <div class="campo">
+            <label for="Experiencia"><strong>Experiencia</strong></label>
+            <select id="senioridade">
+            <option value="0" selected>Selecione</option>
+            <option>Novato</option>
+            <option>Amador</option>
+            <option> Profissional</option>
+            </select>
+           </div>
+            
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label><strong>Conte as atividades que tens interesse</strong></label>
+                    <br><br>
+                    <input type="checkbox" name="atividade1" id="atividade1" value="YOGA">
+                    <label for="atividade1">YOGA</label> 
+
+                    <input type="checkbox"  name="atividade1" id="atividade1" value="Massagem">
+                    <label for ="atividade2">MASSAGEM</label> 
+
+                    <input type="checkbox"  name="atividade3" id="atividade3" value="Acupuntura">
+                    <label for="atividade3">ACUPUNTURA</label> 
+
+               
+                </div>
+
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label class="titulo-text-area"><strong>Conte um pouco da sua experiência:</strong></label>
+                <br>
+                <textarea rows="6" style="width:50em" id="experiencia" name="experiencia" ></textarea>
+            </div>
+            <button type="submit" class="botao">Concluído</button>
+
+
+        </form>
+    </main>
+</body>
+</html>
