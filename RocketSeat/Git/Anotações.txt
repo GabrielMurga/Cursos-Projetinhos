@@ -1,0 +1,18 @@
+Ter noção do que é staged area.
+Inicializar o git: git init
+Parar ver o status, as ações que você está fazendo: git status
+git add . --> Adiciona totos os arquivos
+git add Exemplo.py ---> Adiciona somente esse arquivo
+git rm --cached exemplo.py ---> Remove o arquivo que foi adicionado
+git restoure ---> Eu restauro o arquivo par a versão antes dele ser modificado.
+Para dar o comiit---> git commit -m "mensagem"
+git log---> Ver historicos de commits
+git checkout--> "Mudar as branchs, navegar no tmepo"
+git checkout numeros --arquivo.py ---> Assim eu posso recuperar um arquivo que foi deletado.
+
+
+
+Passando uma pasta para um repositorio no Github:
+git remote add origin link
+git branch -M main
+git push -u origin main 
